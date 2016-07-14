@@ -2,7 +2,7 @@
 <?php
 require_once('config.php');
 require_once('includes/functions.php');
-$db = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+$db = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 ?>
 <html lang="en">
 	<head>
