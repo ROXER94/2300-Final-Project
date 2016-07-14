@@ -8,7 +8,6 @@ $db = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 	<head>
 		<meta charset="utf-8">
 		<title>Ma-Maria <?php if(isset($active)) { echo "| $active"; } ?></title>
-		<meta name="author" content="Keshav Varma">
 		<meta name="description" content="Image Gallery">
 		<link rel="shortcut icon" href="favicon.ico" />
 		<link rel="stylesheet" href="css/reset.css">
